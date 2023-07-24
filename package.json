@@ -1,0 +1,13 @@
+{
+  "name": "lotto24-tickets-example",
+  "version": "1.0.0",
+  "description": "Example for integrating LOTTO24 tickets with partners",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}

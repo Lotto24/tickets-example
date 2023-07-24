@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>LOTTO24 tickets example</title>
+</head>
+<body>
+<div id="ticket-placeholder"></div>
+<script src="https://dbg-assets.lotto24.de/external/stable/external.min.js"></script>
+<script>
+    const eventsHandler = (event, data) => {
+        // do something with event, data
+        console.log(event, data)
+    };
+
+    ExternalTicket.mount({
+        selector: '#ticket-placeholder',
+        gameId: 'dbg.lotto.normal',
+        site: 'lotto24_de',
+        query: 'ticketQuicktipp=true&lotto_numberOfBlocks=5',
+        submitTarget: 'blank',
+        submitTrackingParams: {bar: 'baz'},
+        customCss: ' body { color: red; }',
+        eventsHandler
+    });
+</script>
+</body>
+</html>
