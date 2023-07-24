@@ -13,12 +13,12 @@
 
     ExternalTicket.mount({
         selector: '#ticket-placeholder',
-        gameId: 'dbg.lotto.normal',
+        gameId: 'dbg.eurojackpot',
         site: 'lotto24_de',
-        query: 'ticketQuicktipp=true&lotto_numberOfBlocks=5',
+        query: 'ticketQuicktipp=true&lotto_numberOfBlocks=6&vaid=INSERTVALIDCODEHERE',
         submitTarget: 'blank',
         submitTrackingParams: {bar: 'baz'},
-        customCss: ' body { color: red; }',
+        customCss: ' body { background-color: #ccc; }',
         eventsHandler
     });
 </script>
