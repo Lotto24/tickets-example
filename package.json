@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Example for integrating LOTTO24 tickets with partners",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel example/index.html"
   },
   "author": "",
   "license": "ISC",
